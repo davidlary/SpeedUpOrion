@@ -3,9 +3,9 @@
 **Author:** David Lary ([@davidlary](https://github.com/davidlary))
 **Contact:** davidlary@me.com
 
-## 🎯 **Fix Slow Orion Browser Performance on macOS**
+## 🎯 **Fix Slow Orion Browser Performance on macOS Big Sur+ (11.0+)**
 
-**Is your Orion browser slow to start, consuming excessive memory, or taking forever to load pages?** This free, open-source optimization tool solves common Orion browser performance issues on macOS by analyzing cache bloat, optimizing WebKit settings, monitoring resource usage, and cleaning up database corruption. Whether you're experiencing slow startup times (15-30+ seconds), high memory consumption (1GB+), the dreaded spinning wheel of death, or cross-device sync slowdowns affecting both Mac and iOS, these tools can restore your browsing speed. **Safely reduce startup time by 10-25%, decrease memory usage by up to 500MB, and optimize 10+ browser settings** - all while preserving your bookmarks, passwords, and browsing data with automatic backups.
+**Is your Orion browser slow to start, consuming excessive memory, or taking forever to load pages?** This free, open-source optimization tool solves common Orion browser performance issues on **macOS Big Sur 11.0 through macOS Sequoia 15.0+** by analyzing cache bloat, optimizing WebKit settings, monitoring resource usage, and cleaning up database corruption. **Compatible with Orion Browser versions 0.99+ through latest (RC and stable releases).** Whether you're experiencing slow startup times (15-30+ seconds), high memory consumption (1GB+), the dreaded spinning wheel of death, or cross-device sync slowdowns affecting both Mac and iOS, these tools can restore your browsing speed. **Safely reduce startup time by 10-25%, decrease memory usage by up to 500MB, and optimize 10+ browser settings** - all while preserving your bookmarks, passwords, and browsing data with automatic backups.
 
 A comprehensive diagnostic and optimization script for macOS Orion browser that safely improves performance while preserving your bookmarks and passwords. **Now includes cross-device optimization for iOS Orion sync issues!**
 
@@ -140,9 +140,21 @@ The tool can automatically apply these optimizations with safety level indicator
 ## 🚀 Quick Start
 
 ### Prerequisites
-- macOS with Orion browser installed
-- Python 3.6+ (pre-installed on modern macOS)
-- iOS device with Orion (for cross-device optimization)
+
+#### **System Requirements:**
+- **macOS:** Big Sur 11.0 or later (tested through macOS Sequoia 15.0+)
+- **Orion Browser:** Version 0.99+ (RC or stable releases)
+  - ✅ **Tested versions:** 0.99.x, 1.0+, RC builds, latest stable
+  - ✅ **Both Intel and Apple Silicon Macs supported**
+- **Python:** 3.6+ (pre-installed on macOS Big Sur+)
+- **iOS:** iOS 15+ with Orion Browser (for cross-device optimization)
+
+#### **Compatibility Notes:**
+- **macOS Monterey 12.0+:** Fully supported and extensively tested
+- **macOS Ventura 13.0+:** Full compatibility with enhanced features
+- **macOS Sonoma 14.0+:** Complete support including latest WebKit optimizations
+- **macOS Sequoia 15.0+:** Latest features supported
+- **Orion RC versions:** Beta/RC builds supported but may have different settings paths
 
 ### Installation
 
@@ -361,6 +373,16 @@ Status: 🟠 Fair - Several optimizations needed
 **"Failed to close Orion"**
 - Manually quit Orion from Dock or Activity Monitor
 - Rerun the script
+
+**"Unsupported macOS version" or compatibility issues**
+- **macOS Big Sur 11.0+ required** - Earlier versions not supported
+- Update macOS if running Catalina 10.15 or older
+- Check Orion Browser version: 0.99+ required
+
+**"Orion settings not found" with newer Orion versions**
+- Orion RC/beta versions may use different settings paths
+- Tool auto-detects most path variations
+- Report version-specific issues via GitHub Issues
 
 ### **Advanced Diagnostic Issues:**
 
