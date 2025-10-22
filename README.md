@@ -1,7 +1,11 @@
-# 🚀 Orion Browser Speed Optimization Tool
+# 🚀 Orion Browser Speed Optimization Tool - Fix Slow Performance on macOS
 
 **Author:** David Lary ([@davidlary](https://github.com/davidlary))
 **Contact:** davidlary@me.com
+
+## 🎯 **Fix Slow Orion Browser Performance on macOS**
+
+**Is your Orion browser slow to start, consuming excessive memory, or taking forever to load pages?** This free, open-source optimization tool solves common Orion browser performance issues on macOS by analyzing cache bloat, optimizing WebKit settings, monitoring resource usage, and cleaning up database corruption. Whether you're experiencing slow startup times (15-30+ seconds), high memory consumption (1GB+), the dreaded spinning wheel of death, or cross-device sync slowdowns affecting both Mac and iOS, these tools can restore your browsing speed. **Safely reduce startup time by 10-25%, decrease memory usage by up to 500MB, and optimize 10+ browser settings** - all while preserving your bookmarks, passwords, and browsing data with automatic backups.
 
 A comprehensive diagnostic and optimization script for macOS Orion browser that safely improves performance while preserving your bookmarks and passwords. **Now includes cross-device optimization for iOS Orion sync issues!**
 
@@ -587,5 +591,10 @@ If you encounter issues, you can try these self-help steps:
 **Made with ❤️ for faster browsing**
 
 *Last updated: October 2024*
+
+---
+
+## 🏷️ **Keywords & Topics**
+`orion-browser` `macos` `performance-optimization` `browser-optimization` `cache-cleanup` `webkit` `browser-performance` `startup-speed` `memory-optimization` `python` `automation` `browser-tools` `macos-utilities` `orion` `browser-cache` `performance-tuning` `browser-speedup` `safari-alternative`
 
 **⚠️ Reminder: This software comes with NO WARRANTY. Use at your own risk.**
