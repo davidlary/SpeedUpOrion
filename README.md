@@ -140,6 +140,26 @@ The tool can automatically apply these optimizations with safety level indicator
 - Python 3.6+ (pre-installed on modern macOS)
 - iOS device with Orion (for cross-device optimization)
 
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/davidlary/SpeedUpOrion.git
+   cd SpeedUpOrion
+   ```
+
+2. **Install required dependencies:**
+   ```bash
+   pip3 install -r requirements.txt
+   ```
+
+   Or install manually:
+   ```bash
+   pip3 install psutil
+   ```
+
+   **Note:** `psutil` is required for process monitoring and system resource analysis.
+
 ### Usage Options
 
 #### **🔧 Standard Optimization:**
@@ -320,6 +340,11 @@ Status: 🟠 Fair - Several optimizations needed
 ## 📋 Troubleshooting
 
 ### **Common Issues:**
+
+**"No module named 'psutil'" or import errors**
+- Install required dependencies: `pip3 install -r requirements.txt`
+- Or install manually: `pip3 install psutil`
+- Ensure you're using Python 3.6+ with pip3
 
 **"Orion data directory not found"**
 - Ensure Orion browser is installed
